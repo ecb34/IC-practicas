@@ -12,4 +12,4 @@
 
 6.crear el archivo hosts que contenga el nombre/ip de todas las máquinas.
 
-7.ejecutar en la maquina maestra mpirun -mca plm_rsh_no_tree_spawn 1 -hostfile hosts n 4 ./exec
+7.ejecutar en la maquina maestra mpirun -mca plm_rsh_no_tree_spawn 1 -hostfile hosts -n 4 ./exec
